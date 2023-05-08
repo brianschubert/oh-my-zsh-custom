@@ -9,4 +9,5 @@ Clone to `~/.oh-my-zsh/custom` or point `$ZSH_CUSTOM` to the clone location.
 * `./aliases.zsh`: miscellaneous aliases and shell functions.
 * `./themes/`: oh my zsh themes. Generally git submodules.
 * `./plugins/`: oh my zsh plugins. Generally git submodules.
+* `./other/`: other zsh configuration. Currently just p10k config.
 
