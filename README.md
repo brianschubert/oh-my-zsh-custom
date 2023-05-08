@@ -47,6 +47,15 @@ $ git submodule update --depth=1
 * [FZF](https://github.com/junegunn/fzf)
     * Install per README
     * Add `fzf` to `plugins`. Ships with Oh My Zsh.
+* [poetry]
+    * Install normally.
+    * Run
+      ```shell
+      $ mkdir $ZSH_CUSTOM/plugins/poetry
+      $ poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
+      ```
+    * Add `poetry` to `plugins`.
+
 
 ### Update `~/.zshrc`
 ```shell
@@ -59,6 +68,7 @@ plugins=(
     command-not-found
     zsh-syntax-highlighting
     # fzf  # if fzf installed
+    # poetry  # if poetry installed
 )
 ```
 
