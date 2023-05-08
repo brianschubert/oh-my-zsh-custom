@@ -4,3 +4,9 @@ Personal [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) [customization director
 
 Clone to `~/.oh-my-zsh/custom` or point `$ZSH_CUSTOM` to the clone location.
 
+# Structure
+
+* `./aliases.zsh`: miscellaneous aliases and shell functions.
+* `./themes/`: oh my zsh themes. Generally git submodules.
+* `./plugins/`: oh my zsh plugins. Generally git submodules.
+
