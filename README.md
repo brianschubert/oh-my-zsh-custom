@@ -19,7 +19,7 @@ Start by installing [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
 By default, Oh My Zsh's custom directory is located at `~/oh-my-zsh/custom`. The simplest way to use this repo is to clone it to that location. Alternatively, clone anywhere and point `$ZSH_CUSTOM` to the clone location.
 
-This repo includes several submodules that need to be initialized/populated. This can be done automatically at clong time by passing `--recurse-submodules`. Since some submodules are quite large (e.g. powerlevel10k), it's also recommended to pass `--shallow-submodules` to perform shallow clones for the submodules.
+This repo includes several submodules that need to be initialized/populated. This can be done automatically at cloning time by passing `--recurse-submodules`. Since some submodules are quite large (e.g. powerlevel10k), it's also recommended to pass `--shallow-submodules` to perform shallow clones for the submodules.
 
 ```shell
 $ cd ~/.oh-my-zsh/
@@ -36,7 +36,7 @@ $ git submodule init
 $ git submodule update --depth=1
 ```
 
-### Powerlevel10k config
+### Powerlevel10k theme config
 * Link the config file
   ```shell
   $ ln -fs ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/other/.p10k.zsh ~/.p10k.zsh
@@ -47,7 +47,7 @@ $ git submodule update --depth=1
 * [FZF](https://github.com/junegunn/fzf)
     * Install per README
     * Add `fzf` to `plugins`. Ships with Oh My Zsh.
-* [poetry]
+* [poetry](https://python-poetry.org/)
     * Install normally.
     * Run
       ```shell
