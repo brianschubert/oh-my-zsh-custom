@@ -70,7 +70,10 @@ plugins=(
     # fzf  # if fzf installed
     # poetry  # if poetry installed
     # rust  # if rust installed
+    # docker
+    # docker-compose
 )
-```
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+```
+
