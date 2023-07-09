@@ -5,3 +5,7 @@
 # -F append indicator to entries
 alias ll="ls -alhF"
 
+screen-off() {
+    sleep ${1:-0}
+    xset dpms force off
+}
