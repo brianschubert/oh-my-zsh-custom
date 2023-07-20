@@ -6,6 +6,7 @@
 alias ll="ls -alhF"
 
 screen-off() {
-    sleep ${1:-0}
-    xset dpms force off
+    cinnamon-screensaver-command --lock
+    sleep 0.5 && xset dpms force off
 }
+
