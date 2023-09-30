@@ -26,11 +26,11 @@ $ cd ~/.oh-my-zsh/
 $ rm -r ./custom
 
 # Option 1 - all at one
-$ git clone --recurse-submodules --shallow-submodules -- <repo> custom
+$ git clone --recurse-submodules --shallow-submodules -- https://github.com/brianschubert/oh-my-zsh-custom.git custom
 
 # Optiona 2 - manual
 
-$ git clone -- <repository> custom
+$ git clone -- https://github.com/brianschubert/oh-my-zsh-custom.git custom
 $ cd custom
 $ git submodule init
 $ git submodule update --depth=1
