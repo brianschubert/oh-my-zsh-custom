@@ -5,6 +5,8 @@
 # -F append indicator to entries
 alias ll="ls -alhF"
 
+alias xo=xdg-open
+
 screen-off() {
     cinnamon-screensaver-command --lock
     sleep 0.5 && xset dpms force off
